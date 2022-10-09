@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  body{
+    font-size: 30px;
+    font-family: sans-serif;
+    background: #ebebeb;
+  }
+  .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+  }
+.div{
+     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+    height: 300px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #1cd8d2, #93edc7);
+    color: white;
+    margin: 100px 0;
+    border-radius: 7px;
+  }
+  

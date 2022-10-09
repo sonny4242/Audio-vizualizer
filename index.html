@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <title>Animate On Scroll | AOS</title>
+    <link rel="stylesheet" href="aos-by-red.css">
+     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+  <body>
+    <link rel="stylesheet" href="style.css">
+    <div class="container">
+          <div class="div">
+            I am div 1
+          </div>
+          <div class="div" data-aos="fade-left" data-aos-duration="1000" data-aos-once="true">
+            I am div 2
+          </div>
+
+          <div class="div" data-aos="fade-right">
+            I am div 3
+          </div>
+
+          <div class="div"  data-aos="fade-up">
+            I am div 4
+          </div>
+
+          <div class="div"  data-aos="zoom-in">
+            I am div 5
+          </div>
+
+          <div class="div" data-aos="flip-up">
+            I am div 6
+          </div>
+
+    </div>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 1000,
+        once: false,
+      });
+    </script>
+  </body>
+</html>
