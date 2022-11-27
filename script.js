@@ -32,7 +32,7 @@ window.addEventListener('load', function(){
 
       const dataArray = new Uint8Array(bufferLength);
 
-      const barWidth = (canvas.width/6)/ bufferLength;
+      const barWidth = (canvas.width/2)/ bufferLength;
       let barHeight;
       let x = 0;
 
