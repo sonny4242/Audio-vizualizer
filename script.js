@@ -14,7 +14,7 @@ window.addEventListener('load', function(){
     //audio1.src = "free.mp3"
     //audio1.src = "pea.mp3"
     //audio1.src = "Trinity.mp3"
-    audio1.src = "/01 Never Mind.mp3"
+    audio1.src = "01 Never Mind.mp3"
       audio1.play();
       const audioContext = new AudioContext();
       console.log(audioSource)
