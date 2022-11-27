@@ -1,43 +1,18 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <title>Animate On Scroll | AOS</title>
-    <link rel="stylesheet" href="aos-by-red.css">
-     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-  </head>
-  <body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio vizualizing1</title>
+</head>
+<body>
     <link rel="stylesheet" href="style.css">
-    <div class="container">
-          <div class="div">
-            I am div 1
-          </div>
-          <div class="div" data-aos="fade-left" data-aos-duration="1000" data-aos-once="true">
-            I am div 2
-          </div>
-
-          <div class="div" data-aos="fade-right">
-            I am div 3
-          </div>
-
-          <div class="div"  data-aos="fade-up">
-            I am div 4
-          </div>
-
-          <div class="div"  data-aos="zoom-in">
-            I am div 5
-          </div>
-
-          <div class="div" data-aos="flip-up">
-            I am div 6
-          </div>
+    <div id='container'>
+        <canvas id="canvas1"></canvas>
+        <audio id="audio1"></audio>
 
     </div>
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-      AOS.init({
-        duration: 1000,
-        once: false,
-      });
-    </script>
-  </body>
+    <script src="script.js"></script>
+</body>
 </html>
