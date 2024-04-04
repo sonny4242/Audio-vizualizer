@@ -44,9 +44,9 @@ window.addEventListener('load', function(){
           barHeight = dataArray[i] * 3.5;
           
           
-          const red = 200 * (i/bufferLength);
-          const green = 250;
-          const blue = 0;
+          const red = 250 * (i/bufferLength);
+          const green = 50;
+          const blue = 10;
           
           ctx.fillStyle = "rgba(" + red + "," + green + "," + blue  + "," + "1" + ")";
           ctx.fillRect(canvas.width/2 - x, canvas.height - barHeight, barWidth, barHeight);
